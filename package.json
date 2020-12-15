@@ -1,0 +1,21 @@
+{
+  "name": "einfuehrung",
+  "version": "1.0.0",
+  "description": "Das ist eine Einfuehrung",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx servor public --reload",
+    "compile": "babel src --out-dir public/lib --watch"
+  },
+  "author": "robin zweifel",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-react": "^7.12.7"
+  }
+}
